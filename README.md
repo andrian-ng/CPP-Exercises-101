@@ -185,8 +185,94 @@ $$
 
 #### Exercise 34
 Calculate the following expression, which contains `n` square roots:
-Tính biểu thức sau, có `n` dấu căn:
 
 $$
 S(n) = \sqrt{n+\sqrt{n-1+\sqrt{n-2+\cdots+\sqrt{2+\sqrt{1}}}}}
 $$
+
+#### Exercise 35
+Calculate the following expression, which contains `n` square roots:
+
+$$
+S(n) = \sqrt{n! + \sqrt{(n-1)! + \sqrt{(n-2)! + \cdots + \sqrt{2! + \sqrt{1!}}}}}
+$$
+
+#### Exercise 36
+Calculate the following expression, which contains `n - 1` roots:
+
+$$
+S(n) = \sqrt[n]{n + \sqrt[n-1]{n-1 + \cdots + \sqrt[3]{3 + \sqrt{2}}}}
+$$
+
+#### Exercise 37
+Calculate the following expression, which contains `n` roots:
+
+$$
+S(n) = \sqrt[n+1]{n + \sqrt[n]{n-1 + \cdots + \sqrt[3]{2 + \sqrt{1}}}}
+$$
+
+#### Exercise 38
+Calculate the following expression, which contains `n` roots:
+
+$$
+S(n) = \sqrt[n+1]{n! + \sqrt[n]{(n-1)! + \cdots + \sqrt[3]{2! + \sqrt{1!}}}}
+$$
+
+#### Exercise 39
+Calculate the following expression, which contains `n` square roots:
+
+$$
+S(n) = \sqrt{x^n + \sqrt{x^{n-1} + \cdots + \sqrt{x^2 + \sqrt{x}}}}
+$$
+
+#### Exercise 40
+Calculate the following expression, which contains `n` fraction bars:
+
+$$
+S(n) = \cfrac{1}{1 + \cfrac{1}{1 + \cfrac{1}{\ddots + \cfrac{1}{1 + 1}}}}
+$$
+
+#### Exercise 41
+Given a positive integer `n`, find the largest positive integer `k` such that `S(k) < n`, where:
+
+$$
+S(k) = 1 + 2 + 3 + \cdots + k
+$$
+
+## Section 3
+
+#### Exercise 42
+Count the number of digits of a positive integer `n`.
+
+#### Exercise 43
+Calculate the sum of the digits of a positive integer `n`.
+
+#### Exercise 44
+Calculate the product of the digits of a positive integer `n`.
+
+#### Exercise 45
+Count the number of odd digits of a positive integer `n`.
+
+#### Exercise 46
+Calculate the sum of the even digits of a positive integer `n`.
+
+#### Exercise 47
+Calculate the product of the odd digits of a positive integer `n`.
+
+#### Exercise 48
+Find the first (leftmost) digit of a positive integer `n`.
+
+#### Exercise 49
+Find the reverse of a positive integer `n`. For example, if `n = 1234`, the reverse is `4321`.
+
+#### Exercise 50
+Find the largest digit of a positive integer `n`.
+
+#### Exercise 51
+Find the smallest digit of a positive integer `n`.
+
+#### Exercise 52
+Count how many times the largest digit appears in a positive integer `n`.
+
+#### Exercise 53
+Count how many times the smallest digit appears in a positive integer `n`.
