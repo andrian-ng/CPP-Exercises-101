@@ -14,10 +14,10 @@ int main(void){
     return 0;
 }
 
-// Luy thua nhanh (binary exponentiation): O(log n)
-// Quy uoc 0^0 = 1; n < 0 thi x^n = 1 / x^(-n)
+// Binary exponentiation: O(log n)
+// Convention: 0^0 = 1; for n < 0, x^n = 1 / x^(-n)
 double power (double x, int32_t n){
-    int64_t e = n;              // int64_t de -INT32_MIN khong bi tran
+    int64_t e = n;              // int64_t so that -INT32_MIN does not overflow
     bool negative = e < 0;
     if (negative) e = -e;
 

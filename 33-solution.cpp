@@ -13,7 +13,7 @@ int main(void){
     return 0;
 }
 
-// Tinh tu dau can trong cung ra ngoai: S(1) = sqrt(2), S(k) = sqrt(2 + S(k-1))
+// Evaluate from the innermost root outwards: S(1) = sqrt(2), S(k) = sqrt(2 + S(k-1))
 double sum (int64_t n){
     double result = 0;
     for (int64_t i = 1; i <= n; i++){

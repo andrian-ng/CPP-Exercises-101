@@ -11,7 +11,7 @@ int main(void){
     return 0;
 }
 
-// Chi can thu cac uoc den sqrt(n); bo qua so chan sau khi kiem tra 2
+// Only try divisors up to sqrt(n); skip even numbers after checking 2
 bool is_prime(int64_t n){
     if (n < 2) return false;
     if (n < 4) return true;

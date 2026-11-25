@@ -13,7 +13,7 @@ int main(void){
     return 0;
 }
 
-// Tinh tu dau can trong cung ra ngoai: sqrt(1) -> sqrt(2 + ...) -> ... -> sqrt(n + ...)
+// Evaluate from the innermost root outwards: sqrt(1) -> sqrt(2 + ...) -> ... -> sqrt(n + ...)
 double sum (int64_t n){
     double result = 0;
     for (int64_t i = 1; i <= n; i++){

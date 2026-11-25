@@ -11,7 +11,7 @@ int main(void){
     return 0;
 }
 
-// Uoc thuc su: cac uoc cua n, tru chinh n
+// Proper divisors: all divisors of n except n itself
 int64_t sum_proper_divisor(int64_t n){
     int64_t result = 0;
     if (n <= 0) return result;

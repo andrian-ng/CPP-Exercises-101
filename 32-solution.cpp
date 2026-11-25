@@ -12,7 +12,7 @@ int main(void){
     return 0;
 }
 
-// sqrt() tra ve so thuc nen co the lech 1 voi n lon -> chinh lai bang so nguyen
+// sqrt() works on doubles and can be off by 1 for large n, so adjust with integers
 bool is_perfect_square(int64_t n){
     if (n < 0) return false;
     int64_t r = static_cast<int64_t>(std::sqrt(static_cast<double>(n)));
